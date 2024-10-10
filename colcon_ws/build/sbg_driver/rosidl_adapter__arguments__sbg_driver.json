@@ -1,0 +1,33 @@
+{
+  "package_name": "sbg_driver",
+  "non_idl_tuples": [
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgGpsVelStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgGpsPosStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgMagStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgShipMotionStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgUtcTimeStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgAirData.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgAirDataStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgEkfEuler.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgGpsPos.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgMag.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgStatusCom.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgEkfNav.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgGpsRaw.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgOdoVel.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgStatusGeneral.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgEkfQuat.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgGpsVel.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgEvent.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgImuStatus.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgImuData.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgImuShort.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgShipMotion.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgUtcTime.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgGpsHdt.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgMagCalib.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgStatusAiding.msg",
+    "/home/siddhanth/colcon_ws/src/sbg_ros2_driver:msg/SbgEkfStatus.msg"
+  ]
+}

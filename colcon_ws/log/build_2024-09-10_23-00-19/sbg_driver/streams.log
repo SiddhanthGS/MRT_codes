@@ -1,0 +1,1104 @@
+[0.010s] Invoking command in '/home/siddhanth/colcon_ws/build/sbg_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhanth/mrt_ws_2/install/rover_slam:/home/siddhanth/mrt_ws_2/install/rover_gazebosim:/home/siddhanth/mrt_ws_2/install/rover_description:/home/siddhanth/install/gazebo_python:/home/siddhanth/gazebo_ws/install/turtlebot3_teleop:/home/siddhanth/gazebo_ws/install/my_package:/home/siddhanth/gazebo_ws/install/gazebo_python:/opt/ros/humble /usr/bin/cmake /home/siddhanth/colcon_ws/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/siddhanth/colcon_ws/install/sbg_driver
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.515s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.524s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.585s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.587s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.667s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.691s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.734s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.743s] -- Looking for pthread.h
+[0.817s] -- Looking for pthread.h - found
+[0.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.898s] -- Found Threads: TRUE  
+[0.997s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.068s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.078s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.083s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.131s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.321s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.330s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.331s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.332s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.341s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.613s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.084s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.086s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.115s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.115s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.115s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.137s] -- Found PythonExtra: .so  
+[2.192s] -- Configuring done
+[2.245s] -- Generating done
+[2.247s] -- Build files have been written to: /home/siddhanth/colcon_ws/build/sbg_driver
+[2.255s] Invoked command in '/home/siddhanth/colcon_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhanth/mrt_ws_2/install/rover_slam:/home/siddhanth/mrt_ws_2/install/rover_gazebosim:/home/siddhanth/mrt_ws_2/install/rover_description:/home/siddhanth/install/gazebo_python:/home/siddhanth/gazebo_ws/install/turtlebot3_teleop:/home/siddhanth/gazebo_ws/install/my_package:/home/siddhanth/gazebo_ws/install/gazebo_python:/opt/ros/humble /usr/bin/cmake /home/siddhanth/colcon_ws/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/siddhanth/colcon_ws/install/sbg_driver
+[2.256s] Invoking command in '/home/siddhanth/colcon_ws/build/sbg_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhanth/mrt_ws_2/install/rover_slam:/home/siddhanth/mrt_ws_2/install/rover_gazebosim:/home/siddhanth/mrt_ws_2/install/rover_description:/home/siddhanth/install/gazebo_python:/home/siddhanth/gazebo_ws/install/turtlebot3_teleop:/home/siddhanth/gazebo_ws/install/my_package:/home/siddhanth/gazebo_ws/install/gazebo_python:/opt/ros/humble /usr/bin/cmake --build /home/siddhanth/colcon_ws/build/sbg_driver -- -j16 -l16
+[2.305s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.320s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.324s] [  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o[0m
+[2.325s] [  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o[0m
+[2.325s] [  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o[0m
+[2.326s] [  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o[0m
+[2.326s] [  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o[0m
+[2.326s] [  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o[0m
+[2.327s] [  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o[0m
+[2.327s] [  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o[0m
+[2.327s] [  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o[0m
+[2.327s] [  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o[0m
+[2.327s] [  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o[0m
+[2.331s] [  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o[0m
+[2.332s] [  3%] Built target ament_cmake_python_copy_sbg_driver
+[2.332s] [  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o[0m
+[2.346s] [  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o[0m
+[2.387s] [  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o[0m
+[2.404s] [  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o[0m
+[2.405s] [  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o[0m
+[2.405s] [  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o[0m
+[2.410s] [  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o[0m
+[2.420s] [  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o[0m
+[2.426s] [  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o[0m
+[2.427s] [  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o[0m
+[2.427s] [  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o[0m
+[2.428s] [  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o[0m
+[2.429s] [  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o[0m
+[2.434s] [  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o[0m
+[2.449s] [  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o[0m
+[2.482s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o[0m
+[2.482s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o[0m
+[2.492s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o[0m
+[2.501s] [  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o[0m
+[2.508s] [ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o[0m
+[2.517s] [ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o[0m
+[2.525s] [ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o[0m
+[2.531s] [ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o[0m
+[2.533s] [ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o[0m
+[2.533s] [ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o[0m
+[2.541s] [ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o[0m
+[2.547s] [ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o[0m
+[2.555s] [ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o[0m
+[2.556s] [ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o[0m
+[2.590s] [ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o[0m
+[2.592s] [ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o[0m
+[2.597s] [ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o[0m
+[2.612s] [ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o[0m
+[2.615s] [ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o[0m
+[2.620s] [ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o[0m
+[2.620s] [ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o[0m
+[2.622s] [ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o[0m
+[2.685s] [ 16%] [32m[1mLinking C static library /home/siddhanth/colcon_ws/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a[0m
+[2.741s] [ 16%] Built target sbgECom
+[2.753s] running egg_info
+[2.753s] creating sbg_driver.egg-info
+[2.753s] writing sbg_driver.egg-info/PKG-INFO
+[2.753s] writing dependency_links to sbg_driver.egg-info/dependency_links.txt
+[2.753s] writing top-level names to sbg_driver.egg-info/top_level.txt
+[2.753s] writing manifest file 'sbg_driver.egg-info/SOURCES.txt'
+[2.755s] reading manifest file 'sbg_driver.egg-info/SOURCES.txt'
+[2.755s] writing manifest file 'sbg_driver.egg-info/SOURCES.txt'
+[2.777s] [ 16%] Built target ament_cmake_python_build_sbg_driver_egg
+[4.831s] [ 16%] Built target sbg_driver__cpp
+[4.843s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.844s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.844s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.001s] [ 17%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_utc_time_status__functions.c.o[0m
+[5.001s] [ 17%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_air_data_status__functions.c.o[0m
+[5.001s] [ 17%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c.o[0m
+[5.001s] [ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_air_data__functions.c.o[0m
+[5.002s] [ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_pos_status__functions.c.o[0m
+[5.002s] [ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_status__functions.c.o[0m
+[5.002s] [ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ship_motion_status__functions.c.o[0m
+[5.002s] [ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_euler__functions.c.o[0m
+[5.002s] [ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_pos__functions.c.o[0m
+[5.002s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_com__functions.c.o[0m
+[5.002s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag__functions.c.o[0m
+[5.003s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_nav__functions.c.o[0m
+[5.005s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_raw__functions.c.o[0m
+[5.073s] [ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_general__functions.c.o[0m
+[5.075s] [ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_odo_vel__functions.c.o[0m
+[5.075s] [ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status__functions.c.o[0m
+[5.075s] [ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_event__functions.c.o[0m
+[5.076s] [ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_quat__functions.c.o[0m
+[5.076s] [ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel__functions.c.o[0m
+[5.077s] [ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_status__functions.c.o[0m
+[5.079s] [ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_data__functions.c.o[0m
+[5.080s] [ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_short__functions.c.o[0m
+[5.080s] [ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ship_motion__functions.c.o[0m
+[5.082s] [ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_utc_time__functions.c.o[0m
+[5.089s] [ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_hdt__functions.c.o[0m
+[5.089s] [ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_calib__functions.c.o[0m
+[5.143s] [ 25%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__functions.c.o[0m
+[5.148s] [ 25%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.o[0m
+[5.195s] [ 25%] [32m[1mLinking C shared library libsbg_driver__rosidl_generator_c.so[0m
+[5.238s] [ 25%] Built target sbg_driver__rosidl_generator_c
+[5.248s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.251s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.251s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.704s] [ 25%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_euler__type_support.cpp.o[0m
+[7.704s] [ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_vel_status__type_support.cpp.o[0m
+[7.704s] [ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag_status__type_support.cpp.o[0m
+[7.704s] [ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_air_data__type_support.cpp.o[0m
+[7.705s] [ 27%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ship_motion_status__type_support.cpp.o[0m
+[7.705s] [ 27%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_utc_time_status__type_support.cpp.o[0m
+[7.705s] [ 27%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_pos__type_support.cpp.o[0m
+[7.706s] [ 28%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag__type_support.cpp.o[0m
+[7.706s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_air_data_status__type_support.cpp.o[0m
+[7.709s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_pos_status__type_support.cpp.o[0m
+[7.713s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_com__type_support.cpp.o[0m
+[8.152s] [ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_nav__type_support.cpp.o[0m
+[8.158s] [ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_raw__type_support.cpp.o[0m
+[8.158s] [ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_odo_vel__type_support.cpp.o[0m
+[8.159s] [ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_general__type_support.cpp.o[0m
+[8.188s] [ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_quat__type_support.cpp.o[0m
+[8.209s] [ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_vel__type_support.cpp.o[0m
+[8.233s] [ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status__type_support.cpp.o[0m
+[8.241s] [ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_event__type_support.cpp.o[0m
+[8.242s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_status__type_support.cpp.o[0m
+[8.266s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_data__type_support.cpp.o[0m
+[8.292s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_short__type_support.cpp.o[0m
+[8.568s] [ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp.o[0m
+[8.582s] [ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ship_motion__type_support.cpp.o[0m
+[8.583s] [ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_utc_time__type_support.cpp.o[0m
+[8.601s] [ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_vel_status__type_support.cpp.o[0m
+[8.648s] [ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_pos_status__type_support.cpp.o[0m
+[8.648s] [ 35%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.cpp.o[0m
+[8.673s] [ 35%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag_status__type_support.cpp.o[0m
+[8.682s] [ 35%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_status__type_support.cpp.o[0m
+[8.688s] [ 35%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.cpp.o[0m
+[8.695s] [ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_utc_time_status__type_support.cpp.o[0m
+[8.718s] [ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ship_motion_status__type_support.cpp.o[0m
+[8.718s] [ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_utc_time_status__type_support.cpp.o[0m
+[8.745s] [ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_air_data__type_support.cpp.o[0m
+[8.756s] [ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_air_data__type_support.cpp.o[0m
+[8.763s] [ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_air_data_status__type_support.cpp.o[0m
+[8.764s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_euler__type_support.cpp.o[0m
+[8.764s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_air_data_status__type_support.cpp.o[0m
+[8.773s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_pos__type_support.cpp.o[0m
+[8.804s] [ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag__type_support.cpp.o[0m
+[8.808s] [ 39%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_euler__type_support.cpp.o[0m
+[8.859s] [ 39%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_pos__type_support.cpp.o[0m
+[8.914s] [ 39%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag__type_support.cpp.o[0m
+[8.971s] [ 40%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_com__type_support.cpp.o[0m
+[9.023s] [ 40%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_nav__type_support.cpp.o[0m
+[9.035s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_com__type_support.cpp.o[0m
+[9.038s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_hdt__type_support.cpp.o[0m
+[9.078s] [ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_raw__type_support.cpp.o[0m
+[9.138s] [ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_odo_vel__type_support.cpp.o[0m
+[9.190s] [ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_general__type_support.cpp.o[0m
+[9.245s] [ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_quat__type_support.cpp.o[0m
+[9.299s] [ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_vel__type_support.cpp.o[0m
+[9.310s] [ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag_calib__type_support.cpp.o[0m
+[9.319s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status__type_support.cpp.o[0m
+[9.342s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_aiding__type_support.cpp.o[0m
+[9.353s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_nav__type_support.cpp.o[0m
+[9.372s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_event__type_support.cpp.o[0m
+[9.388s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_status__type_support.cpp.o[0m
+[9.426s] [ 44%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_status__type_support.cpp.o[0m
+[9.440s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_data__type_support.cpp.o[0m
+[9.447s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_short__type_support.cpp.o[0m
+[9.464s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ship_motion__type_support.cpp.o[0m
+[9.493s] [ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_raw__type_support.cpp.o[0m
+[9.500s] [ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_odo_vel__type_support.cpp.o[0m
+[9.515s] [ 47%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_utc_time__type_support.cpp.o[0m
+[9.529s] [ 47%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_general__type_support.cpp.o[0m
+[9.556s] [ 47%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_quat__type_support.cpp.o[0m
+[9.574s] [ 48%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel__type_support.cpp.o[0m
+[9.575s] [ 48%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_hdt__type_support.cpp.o[0m
+[9.584s] [ 48%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag_calib__type_support.cpp.o[0m
+[9.603s] [ 48%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status__type_support.cpp.o[0m
+[9.633s] [ 49%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_aiding__type_support.cpp.o[0m
+[9.654s] [ 49%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_event__type_support.cpp.o[0m
+[9.688s] [ 49%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_status__type_support.cpp.o[0m
+[9.708s] [ 50%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_status__type_support.cpp.o[0m
+[9.735s] [ 50%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_vel_status__type_support_c.cpp.o[0m
+[9.737s] [ 50%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_c.so[0m
+[9.774s] [ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_pos_status__type_support_c.cpp.o[0m
+[9.816s] [ 51%] Built target sbg_driver__rosidl_typesupport_c
+[9.830s] [ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_data__type_support.cpp.o[0m
+[9.871s] [ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_short__type_support.cpp.o[0m
+[9.875s] [ 52%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_cpp.so[0m
+[9.953s] [ 52%] Built target sbg_driver__rosidl_typesupport_cpp
+[9.971s] [ 52%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag_status__type_support_c.cpp.o[0m
+[10.104s] [ 52%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ship_motion_status__type_support_c.cpp.o[0m
+[10.185s] [ 53%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ship_motion__type_support.cpp.o[0m
+[10.190s] [ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_utc_time_status__type_support_c.cpp.o[0m
+[10.272s] [ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_air_data__type_support_c.cpp.o[0m
+[10.289s] [ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_utc_time__type_support.cpp.o[0m
+[10.344s] [ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_hdt__type_support.cpp.o[0m
+[10.358s] [ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_air_data_status__type_support_c.cpp.o[0m
+[10.373s] [ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_euler__type_support_c.cpp.o[0m
+[10.384s] [ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_pos__type_support_c.cpp.o[0m
+[10.425s] [ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp.o[0m
+[10.459s] [ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp.o[0m
+[10.519s] [ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.o[0m
+[10.561s] [ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag__type_support_c.cpp.o[0m
+[10.597s] [ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_com__type_support_c.cpp.o[0m
+[10.768s] [ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_nav__type_support_c.cpp.o[0m
+[10.771s] [ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_raw__type_support_c.cpp.o[0m
+[10.832s] [ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_odo_vel__type_support_c.cpp.o[0m
+[10.856s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_general__type_support_c.cpp.o[0m
+[10.952s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_quat__type_support_c.cpp.o[0m
+[10.974s] [ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_vel__type_support_c.cpp.o[0m
+[11.055s] [ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status__type_support_c.cpp.o[0m
+[11.059s] [ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_event__type_support_c.cpp.o[0m
+[11.126s] [ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_status__type_support_c.cpp.o[0m
+[11.152s] [ 60%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_data__type_support_c.cpp.o[0m
+[11.179s] [ 60%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_short__type_support_c.cpp.o[0m
+[11.190s] [ 60%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ship_motion__type_support_c.cpp.o[0m
+[11.216s] [ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_utc_time__type_support_c.cpp.o[0m
+[11.224s] [ 62%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_introspection_cpp.so[0m
+[11.385s] [ 62%] Built target sbg_driver__rosidl_typesupport_introspection_cpp
+[11.406s] [ 62%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_hdt__type_support_c.cpp.o[0m
+[11.413s] [ 62%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag_calib__type_support_c.cpp.o[0m
+[11.421s] [ 63%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_aiding__type_support_c.cpp.o[0m
+[11.450s] [ 63%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_status__type_support_c.cpp.o[0m
+[11.746s] [ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_vel_status__type_support.cpp.o[0m
+[11.759s] [ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_pos_status__type_support.cpp.o[0m
+[11.767s] [ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag_status__type_support.cpp.o[0m
+[11.774s] [ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_utc_time_status__type_support.cpp.o[0m
+[11.774s] [ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ship_motion_status__type_support.cpp.o[0m
+[11.776s] [ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_air_data_status__type_support.cpp.o[0m
+[11.784s] [ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_air_data__type_support.cpp.o[0m
+[11.807s] [ 65%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.c.o[0m
+[11.838s] [ 66%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.c.o[0m
+[11.856s] [ 66%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag_status__type_support.c.o[0m
+[11.861s] [ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_euler__type_support.cpp.o[0m
+[11.893s] [ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_pos__type_support.cpp.o[0m
+[11.908s] [ 67%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.c.o[0m
+[11.914s] [ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag__type_support.cpp.o[0m
+[11.941s] [ 67%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_utc_time_status__type_support.c.o[0m
+[11.961s] [ 68%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_com__type_support.cpp.o[0m
+[11.969s] [ 69%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_air_data__type_support.c.o[0m
+[11.999s] [ 69%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_air_data_status__type_support.c.o[0m
+[12.010s] [ 69%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_euler__type_support.c.o[0m
+[12.032s] [ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_nav__type_support.cpp.o[0m
+[12.054s] [ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_raw__type_support.cpp.o[0m
+[12.081s] [ 70%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_pos__type_support.c.o[0m
+[12.111s] [ 70%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag__type_support.c.o[0m
+[12.142s] [ 71%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_odo_vel__type_support.cpp.o[0m
+[12.158s] [ 71%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_fastrtps_c.so[0m
+[12.169s] [ 71%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_com__type_support.c.o[0m
+[12.229s] [ 72%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_nav__type_support.c.o[0m
+[12.294s] [ 72%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_raw__type_support.c.o[0m
+[12.341s] [ 72%] Built target sbg_driver__rosidl_typesupport_fastrtps_c
+[12.353s] [ 72%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_odo_vel__type_support.c.o[0m
+[12.368s] [ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_general__type_support.cpp.o[0m
+[12.418s] [ 73%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_general__type_support.c.o[0m
+[12.453s] [ 73%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_quat__type_support.c.o[0m
+[12.479s] [ 73%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_quat__type_support.cpp.o[0m
+[12.480s] [ 74%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_vel__type_support.cpp.o[0m
+[12.511s] [ 74%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status__type_support.cpp.o[0m
+[12.520s] [ 74%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_vel__type_support.c.o[0m
+[12.541s] [ 75%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status__type_support.c.o[0m
+[12.583s] [ 75%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_event__type_support.c.o[0m
+[12.587s] [ 75%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_status__type_support.c.o[0m
+[12.605s] [ 75%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_event__type_support.cpp.o[0m
+[12.611s] [ 76%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_status__type_support.cpp.o[0m
+[12.619s] [ 76%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_short__type_support.cpp.o[0m
+[12.621s] [ 76%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_data__type_support.cpp.o[0m
+[12.649s] [ 77%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ship_motion__type_support.cpp.o[0m
+[12.652s] [ 78%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_data__type_support.c.o[0m
+[12.713s] [ 78%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_short__type_support.c.o[0m
+[12.753s] [ 78%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ship_motion__type_support.c.o[0m
+[12.768s] [ 79%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_utc_time__type_support.c.o[0m
+[12.778s] [ 79%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_hdt__type_support.c.o[0m
+[12.781s] [ 79%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag_calib__type_support.c.o[0m
+[12.812s] [ 80%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_aiding__type_support.c.o[0m
+[12.821s] [ 80%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_status__type_support.c.o[0m
+[12.833s] [ 80%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_utc_time__type_support.cpp.o[0m
+[12.836s] [ 80%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_hdt__type_support.cpp.o[0m
+[12.841s] [ 81%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag_calib__type_support.cpp.o[0m
+[12.871s] [ 81%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_aiding__type_support.cpp.o[0m
+[12.886s] [ 81%] [32m[1mLinking C shared library libsbg_driver__rosidl_typesupport_introspection_c.so[0m
+[12.917s] [ 81%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_status__type_support.cpp.o[0m
+[12.951s] [ 81%] Built target sbg_driver__rosidl_typesupport_introspection_c
+[13.473s] [ 82%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.524s] [ 82%] Built target sbg_driver__rosidl_typesupport_fastrtps_cpp
+[13.545s] [ 82%] Built target sbg_driver
+[13.577s] [ 83%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/sbg_device.cpp.o[0m
+[13.577s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.577s] [ 83%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/config_store.cpp.o[0m
+[13.578s] [ 83%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/config_applier.cpp.o[0m
+[13.578s] [ 83%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_publisher.cpp.o[0m
+[13.578s] [ 84%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o[0m
+[13.580s] [ 86%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/main_mag.cpp.o[0m
+[13.581s] [ 86%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_wrapper.cpp.o[0m
+[13.581s] [ 86%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_publisher.cpp.o[0m
+[13.581s] [ 86%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/config_store.cpp.o[0m
+[13.581s] [ 87%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/sbg_device.cpp.o[0m
+[13.581s] [ 87%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/main.cpp.o[0m
+[13.581s] [ 87%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/config_applier.cpp.o[0m
+[14.054s] In file included from [01m[K/home/siddhanth/colcon_ws/src/sbg_ros2_driver/src/message_wrapper.cpp:6[m[K:
+[14.054s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[14.054s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[14.054s]       |  [01;35m[K^~~~~~~[m[K
+[14.054s] In file included from [01m[K/home/siddhanth/colcon_ws/src/sbg_ros2_driver/src/message_wrapper.cpp:6[m[K:
+[14.054s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[14.054s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[14.054s]       |  [01;35m[K^~~~~~~[m[K
+[21.926s] [ 87%] Built target sbg_driver__py
+[21.960s] [ 88%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_air_data_status_s.c.o[0m
+[21.960s] [ 89%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ship_motion_status_s.c.o[0m
+[21.960s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_status_s.c.o[0m
+[21.961s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_status_s.c.o[0m
+[21.961s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_pos_status_s.c.o[0m
+[21.961s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_utc_time_status_s.c.o[0m
+[21.962s] [ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_air_data_s.c.o[0m
+[21.963s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_s.c.o[0m
+[21.970s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_pos_s.c.o[0m
+[21.970s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_com_s.c.o[0m
+[21.970s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_euler_s.c.o[0m
+[22.119s] [ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_nav_s.c.o[0m
+[22.149s] [ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_raw_s.c.o[0m
+[22.153s] [ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_odo_vel_s.c.o[0m
+[22.159s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_quat_s.c.o[0m
+[22.159s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_general_s.c.o[0m
+[22.164s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_s.c.o[0m
+[22.164s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_event_s.c.o[0m
+[22.166s] [ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_s.c.o[0m
+[22.170s] [ 94%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_status_s.c.o[0m
+[22.174s] [ 94%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_data_s.c.o[0m
+[22.177s] [ 94%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_short_s.c.o[0m
+[22.182s] [ 95%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ship_motion_s.c.o[0m
+[22.319s] [ 95%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_utc_time_s.c.o[0m
+[22.341s] [ 96%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib_s.c.o[0m
+[22.342s] [ 96%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_hdt_s.c.o[0m
+[22.348s] [ 96%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding_s.c.o[0m
+[22.349s] [ 96%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.o[0m
+[22.516s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so[0m
+[22.573s] [ 97%] Built target sbg_driver__rosidl_generator_py
+[22.596s] [ 98%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.604s] [100%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[22.604s] [100%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.780s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.845s] [100%] Built target sbg_driver__rosidl_typesupport_introspection_c__pyext
+[22.854s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.897s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.900s] [100%] Built target sbg_driver__rosidl_typesupport_c__pyext
+[22.950s] [100%] Built target sbg_driver__rosidl_typesupport_fastrtps_c__pyext
+[27.072s] [100%] [32m[1mLinking CXX executable sbg_device_mag[0m
+[27.609s] [100%] Built target sbg_device_mag
+[28.765s] [100%] [32m[1mLinking CXX executable sbg_device[0m
+[29.236s] [100%] Built target sbg_device
+[29.248s] Invoked command in '/home/siddhanth/colcon_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhanth/mrt_ws_2/install/rover_slam:/home/siddhanth/mrt_ws_2/install/rover_gazebosim:/home/siddhanth/mrt_ws_2/install/rover_description:/home/siddhanth/install/gazebo_python:/home/siddhanth/gazebo_ws/install/turtlebot3_teleop:/home/siddhanth/gazebo_ws/install/my_package:/home/siddhanth/gazebo_ws/install/gazebo_python:/opt/ros/humble /usr/bin/cmake --build /home/siddhanth/colcon_ws/build/sbg_driver -- -j16 -l16
+[29.870s] Invoking command in '/home/siddhanth/colcon_ws/build/sbg_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhanth/mrt_ws_2/install/rover_slam:/home/siddhanth/mrt_ws_2/install/rover_gazebosim:/home/siddhanth/mrt_ws_2/install/rover_description:/home/siddhanth/install/gazebo_python:/home/siddhanth/gazebo_ws/install/turtlebot3_teleop:/home/siddhanth/gazebo_ws/install/my_package:/home/siddhanth/gazebo_ws/install/gazebo_python:/opt/ros/humble /usr/bin/cmake --install /home/siddhanth/colcon_ws/build/sbg_driver
+[29.877s] -- Install configuration: ""
+[29.877s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/ament_index/resource_index/rosidl_interfaces/sbg_driver
+[29.877s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[29.877s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__functions.c
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__functions.c
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__functions.c
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__functions.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.h
+[29.878s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__functions.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__functions.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__functions.c
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__functions.c
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__functions.c
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__functions.c
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__functions.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__functions.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__functions.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.h
+[29.879s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__functions.c
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__functions.c
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__functions.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__functions.c
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__functions.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__functions.h
+[29.880s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__functions.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__functions.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__functions.c
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__functions.c
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__functions.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__functions.c
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__functions.h
+[29.881s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__functions.c
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__functions.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__functions.c
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__functions.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__functions.c
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__functions.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__functions.c
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__functions.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.h
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__functions.c
+[29.882s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__functions.c
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__functions.c
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__functions.c
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__functions.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__functions.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__functions.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.h
+[29.883s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__functions.c
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__functions.c
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__functions.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__functions.c
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__functions.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__functions.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__functions.h
+[29.884s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__functions.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__functions.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__functions.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__functions.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__functions.c
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__functions.c
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__functions.c
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.h
+[29.885s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_generator_c__visibility_control.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.h
+[29.886s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.h
+[29.887s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/library_path.sh
+[29.887s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/library_path.dsv
+[29.887s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_c.so
+[29.887s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_c.so" to ""
+[29.887s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[29.887s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[29.887s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[29.887s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_c.h
+[29.887s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_c.h
+[29.888s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_c.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_c.so
+[29.889s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_c.so" to ""
+[29.889s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[29.889s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[29.889s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.hpp
+[29.890s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__builder.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__traits.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__traits.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__builder.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__traits.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__traits.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__traits.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__traits.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__builder.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__builder.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__builder.hpp
+[29.890s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__builder.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__traits.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__traits.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__builder.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__builder.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__builder.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__traits.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__builder.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__builder.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__traits.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__traits.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__traits.hpp
+[29.891s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__traits.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__builder.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__builder.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__traits.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__traits.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__traits.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__traits.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__builder.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__traits.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__traits.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__builder.hpp
+[29.892s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__builder.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__builder.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__traits.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__builder.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__builder.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__builder.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__builder.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__traits.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.hpp
+[29.893s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__builder.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__builder.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__builder.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__traits.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__traits.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__traits.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__traits.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__builder.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__builder.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__builder.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__traits.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__traits.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__builder.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.hpp
+[29.894s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.hpp
+[29.895s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.hpp
+[29.896s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[29.896s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[29.896s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/dds_fastrtps
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.896s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_cpp.hpp
+[29.897s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_cpp.so
+[29.898s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.898s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[29.898s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.898s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.c
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_c.h
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.c
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.c
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_c.h
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_c.h
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_c.h
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.c
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.c
+[29.898s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_c.h
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.c
+[29.899s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_c.h
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.c
+[29.900s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.c
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_c.h
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.c
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.c
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_c.h
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.c
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.c
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.c
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_c.h
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_c.h
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_c.h
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_c.h
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_c.so
+[29.901s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_c.so" to ""
+[29.901s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_c.so
+[29.902s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_c.so" to ""
+[29.902s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver
+[29.902s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg
+[29.902s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_cpp.hpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.cpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_cpp.hpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.cpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_cpp.hpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.cpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.cpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_cpp.hpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.cpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.cpp
+[29.902s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_cpp.hpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.cpp
+[29.903s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.cpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_cpp.hpp
+[29.904s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_cpp.hpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.cpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_cpp.hpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.cpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_cpp.hpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_cpp.hpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_cpp.hpp
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_cpp.so
+[29.905s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_cpp.so" to ""
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_cpp.so
+[29.905s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_cpp.so" to ""
+[29.905s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/pythonpath.sh
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/pythonpath.dsv
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/PKG-INFO
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/top_level.txt
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/dependency_links.txt
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/SOURCES.txt
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status_s.c
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status.py
+[29.906s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos.py
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status_s.c
+[29.907s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general_s.c
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status.py
+[29.908s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/__init__.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_s.c
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt_s.c
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_s.c
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status_s.c
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat.py
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/libsbg_driver__rosidl_generator_py.so
+[29.909s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[29.910s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/__init__.py
+[29.910s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[29.956s] Listing '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/__init__.py'...
+[29.956s] Listing '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/__init__.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event.py'...
+[29.956s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time.py'...
+[29.957s] Compiling '/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status.py'...
+[29.960s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[29.960s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[29.960s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.960s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[29.960s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[29.960s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[29.960s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_py.so
+[29.961s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/libsbg_driver__rosidl_generator_py.so" to ""
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirData.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.idl
+[29.961s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgMag.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatus.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEvent.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuData.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.idl
+[29.962s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.idl
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.idl
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.idl
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.idl
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.idl
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirData.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.msg
+[29.963s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgMag.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatus.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEvent.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuData.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.msg
+[29.964s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.msg
+[29.965s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.msg
+[29.965s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.msg
+[29.965s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.msg
+[29.965s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.msg
+[29.965s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.msg
+[29.965s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/sbg_driver/sbg_device
+[29.968s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/sbg_driver/sbg_device" to ""
+[29.968s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/lib/sbg_driver/sbg_device_mag
+[29.972s] -- Set runtime path of "/home/siddhanth/colcon_ws/install/sbg_driver/lib/sbg_driver/sbg_device_mag" to ""
+[29.972s] -- Up-to-date: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/message_wrapper.h
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_vector3.h
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/config_applier.h
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/config_store.h
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_device.h
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/sbg_matrix3.h
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/include/sbg_driver/message_publisher.h
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_launch.py
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration_launch.py
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device.launch
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration.launch
+[29.972s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/examples
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseN.launch
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseA.launch
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseE.launch
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config/sbg_device_udp_default.yaml
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config/sbg_device_uart_default.yaml
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config/example
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_N_default.yaml
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_D_default.yaml
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_A_default.yaml
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/config/example/ellipse_E_default.yaml
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/ament_index/resource_index/package_run_dependencies/sbg_driver
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/ament_index/resource_index/parent_prefix_path/sbg_driver
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.sh
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.dsv
+[29.973s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/path.sh
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/environment/path.dsv
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/local_setup.bash
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/local_setup.sh
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/local_setup.zsh
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/local_setup.dsv
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/package.dsv
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/ament_index/resource_index/packages/sbg_driver
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport.cmake
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport-noconfig.cmake
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.974s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cppExport.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport-noconfig.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport.cmake
+[29.975s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport-noconfig.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake-extras.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_targets-extras.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig-version.cmake
+[29.976s] -- Installing: /home/siddhanth/colcon_ws/install/sbg_driver/share/sbg_driver/package.xml
+[29.978s] Invoked command in '/home/siddhanth/colcon_ws/build/sbg_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhanth/mrt_ws_2/install/rover_slam:/home/siddhanth/mrt_ws_2/install/rover_gazebosim:/home/siddhanth/mrt_ws_2/install/rover_description:/home/siddhanth/install/gazebo_python:/home/siddhanth/gazebo_ws/install/turtlebot3_teleop:/home/siddhanth/gazebo_ws/install/my_package:/home/siddhanth/gazebo_ws/install/gazebo_python:/opt/ros/humble /usr/bin/cmake --install /home/siddhanth/colcon_ws/build/sbg_driver
